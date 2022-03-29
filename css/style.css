@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: larger;
+}
+/* sfondo rosso */
+
+.boxred {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+}
+.imgbox {
+    width: 40%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    /* background-color: blue; */
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.boxred img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.boxred h1 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    /* background-color: azure; */
+    text-align: center;
+    z-index: 20;
+}
+
+
+/* sfondo verde */
+.boxgreen {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: green;
+}
+.imgbox {
+    width: 40%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    /* background-color: blue; */
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.boxgreen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.boxgreen h1 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    /* background-color: azure; */
+    text-align: center;
+    z-index: 20;
+}
+
+/* box giallo */
+
+.boxyellow {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: yellow;
+}
+.imgbox {
+    width: 40%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    /* background-color: blue; */
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.boxyellow img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.boxyellow h1 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: green;
+    /* background-color: azure; */
+    text-align: center;
+    z-index: 20;
+}
